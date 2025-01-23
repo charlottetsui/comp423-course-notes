@@ -1,3 +1,3 @@
 # Welcome to Charlotte's Course Notes
 
-This is my home page. I will use it to organize and share my course notes.
+Hello, this is my hope page where I will be organizing and sharing course notes for COMP 423.
