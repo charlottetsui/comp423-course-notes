@@ -25,14 +25,14 @@ Please make sure you have the following before continuing
 - [Docker](https://www.docker.com/)
 
 ## Step 1: Create a Blank Directory and Initialize Git
-Open your terminal and create a new directory for your project.
+1. Open your terminal and create a new directory for your project.
 
 ```bash
 mkdir comp423-rust-setup 
 cd comp423-rust-setup
 ```
 
-Initialize a new Git repository.
+2. Initialize a new Git repository.
 
 ```bash
 git init
@@ -56,15 +56,15 @@ git init
 Reopen the project in your dev container by pressing `Ctrl+Shift+P` or `Cmd+Shift+P` on Mac. Type in "Dev Containers: Reopen in Container" and wait for your container setup to complete.
 
 ## Step 4: Create a new Rust Project
-In a new terminal, type the following:
+1. In a new terminal, type the following:
 ```bash
 cargo new hello_comp423
 ```
-Navigate to your project directory.
+2. Navigate to your project directory.
 ```bash
 cd hello_comp423
 ```
-Write your simple program!
+3. Write your simple program!
 ```rust
 fn main() {
     println!("Hello, COMP423!");
@@ -72,11 +72,11 @@ fn main() {
 ```
 
 ## Step 5: Build and Run your Project
-Build your project using **Cargo**. Open a new VS Code terminal and type:
+1. Build your project using **Cargo**. Open a new VS Code terminal and type:
 ```bash
 cargo build
 ```
-Run your project using Cargo
+2. Run your project using Cargo
 ```bash
 cargo run
 ```
