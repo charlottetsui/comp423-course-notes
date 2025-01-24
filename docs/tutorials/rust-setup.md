@@ -31,7 +31,6 @@ Please make sure you have the following before continuing
 mkdir comp423-rust-setup 
 cd comp423-rust-setup
 ```
-
 2. Initialize a new Git repository.
 
 ```bash
@@ -84,3 +83,6 @@ cargo run
 ```bash
 Hello COMP423!
 ```
+
+!!! info Uninstall Rust
+      If at any point you need to uninstall Rust, run the command `rustup self uninstall`.
