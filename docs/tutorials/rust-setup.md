@@ -46,7 +46,7 @@ git init
 {
   "name": "Rust Development",
   "image": "mcr.microsoft.com/vscode/devcontainers/rust:1",
-  "extensions": ["matklad. rust-analyzer"],
+  "extensions": “rust-lang.rust-analyzer”,
   "postCreateCommand": "rustup update && ruste --version"
 }
 ```
