@@ -42,12 +42,17 @@ git init
 2. Inside the project, create a new `.devcontainer` directory in the root of your project history with the following file inside of this "hidden" configuraiton directory:
 `.devcontainer/devcontainer.json`
 3. Open `devcontainer.json` and configure the development environment and shown below:
-```bash
+```
 {
-  "name": "Rust Development",
+  "name": "Rust Setup",
   "image": "mcr.microsoft.com/vscode/devcontainers/rust:1",
-  "extensions": “rust-lang.rust-analyzer”,
-  "postCreateCommand": "rustup update && ruste --version"
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": ["rust-lang.rust-analyzer", "matklad.rust-analyzer" ],
+      "postCreateCommand": "rustup update && ruste --version"
+    }
+  }
 }
 ```
 
