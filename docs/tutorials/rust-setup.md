@@ -52,7 +52,7 @@ git init
       "extensions": ["rust-lang.rust-analyzer", "matklad.rust-analyzer" ],
       "postCreateCommand": "rustup update && ruste --version"
     }
-  }
+  } 
 }
 ```
 
