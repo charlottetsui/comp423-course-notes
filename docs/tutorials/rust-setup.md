@@ -50,6 +50,8 @@ git init
   "postCreateCommand": "rustup update && ruste --version"
 }
 ```
+!!! info
+      In the Rust development environment, all tools are installed to the ~/.cargo/bin directory, and this is where you will find the Rust toolchain, including rustc, cargo, and rustup.
 
 ## Step 3: Reopen in Dev Container
 Reopen the project in your dev container by pressing `Ctrl+Shift+P` or `Cmd+Shift+P` on Mac. Type in "Dev Containers: Reopen in Container" and wait for your container setup to complete.
@@ -83,6 +85,3 @@ cargo run
 ```bash
 Hello COMP423!
 ```
-
-!!! info Uninstall Rust
-      If at any point you need to uninstall Rust, run the command `rustup self uninstall`.
